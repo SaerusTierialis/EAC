@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="EAC.EACConfigServer">
+    <Position X="2.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAA=</HashCode>
+      <FileName>EACConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.EACConfigClient">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EACConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.EACPlayer">
+    <Position X="0.5" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBQAAAAAAAAAQAABBAAAAIAAAAAEAAAA=</HashCode>
+      <FileName>Systems\PlayerModules\EACPlayer.PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.Jobs.Job">
+    <Position X="10.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAABAAEAAAAAAQACQAAAQEQAAAAAAAoAAAEQA=</HashCode>
+      <FileName>Systems\Jobs\Job.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.Jobs.JobDefinitions">
+    <Position X="10.25" Y="4.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EAC.Systems.Jobs.JobDefinitions.JOB_ID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Systems\Jobs\JobDefinitions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="EAC.Systems.Jobs.JobDefinitions.T1_Novice" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Systems\Jobs\JobDefinitions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="EAC.Systems.Jobs.JobDefinitions.T2_Squire" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Systems\Jobs\JobDefinitions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="EAC.Systems.Jobs.JobDefinitions.T3_Warrior" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Systems\Jobs\JobDefinitions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Systems\Jobs\JobDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Items.JobTokens.JobToken">
+    <Position X="13.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>iAAAABAAQAAIEAEAAAQAAAQAAAAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>Items\JobTokens\JobToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.Stats.Stat">
+    <Position X="16" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAFABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Systems\Stats\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.Stats.StatDefinitions">
+    <Position X="16" Y="3" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="EAC.Systems.Stats.StatDefinitions.GenericDamagePctInc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Systems\Stats\StatDefinitions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="EAC.Systems.Stats.StatDefinitions.MeleeDamagePctInc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Systems\Stats\StatDefinitions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Systems\Stats\StatDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.PlayerModules.Module">
+    <Position X="6.5" Y="0.5" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="EAC.Systems.PlayerModules.Module.MODULE_IDS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Systems\PlayerModules\Module.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>kAAAgICAAAAAAAAAAAAAAAASBAABAAAgAAAAAAEAAAA=</HashCode>
+      <FileName>Systems\PlayerModules\Module.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.PlayerModules.PlayerData">
+    <Position X="6.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Systems\PlayerModules\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.PlayerModules.XPLevelModule">
+    <Position X="6.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAQQIAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Systems\PlayerModules\XPLevelModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.Systems.PlayerModules.JobModule">
+    <Position X="6.5" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gCIAAAAAAAQAAAAAAEAAAAAABAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Systems\PlayerModules\JobModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EAC.EAC">
+    <Position X="4" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAEAAACAAAAAAAAAAQAAAAAAgAAAAAACAA=</HashCode>
+      <FileName>Items\JobTokens\ExperienceAndClasses.Load.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

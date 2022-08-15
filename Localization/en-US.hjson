@@ -1,0 +1,29 @@
+Mods: {
+	EAC: {
+		Jobs: {
+			General: {
+				Token: Class Token
+			}
+			T1_Novice: {
+				Name: Novice
+				Tooltip: TODO
+			}
+			T2_Squire: {
+				Name: Squire
+				Tooltip: TODO
+			}
+			T3_Warrior: {
+				Name: Warrior
+				Tooltip: TODO
+			}
+		}
+		RecipeCondition: {
+			Level: "requires level {0}"
+		}
+		Stats: {
+			PerLevel: per level
+			GenericDamagePctInc: all damage
+			MeleeDamagePctInc: melee damage
+		}
+	}
+}
