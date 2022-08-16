@@ -84,15 +84,5 @@ namespace EAC.Items.JobTokens
         {
             player.GetModPlayer<EACPlayer>().PlayerData.JobModule.TryAddJob(JobID);
         }
-
-        public static void LoadTokens(Mod mod)
-        {
-            ModItem item;
-            foreach (JobDefinitions.JOB_ID jobID in Enum.GetValues(typeof(JobDefinitions.JOB_ID)))
-            {
-                item = new JobToken(jobID);
-                mod.AddContent(item);
-            }
-        }
     }
 }
