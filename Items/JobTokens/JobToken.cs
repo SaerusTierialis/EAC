@@ -24,7 +24,7 @@ namespace EAC.Items.JobTokens
 
         public override string Name => JobDefinitions.LOOKUP[JobID].TokenName;
 
-        public override string Texture => "EAC/Items/JobTokens/Textures/" + Name;
+        public override string Texture => "EAC/Textures/JobTokens/" + Name;
 
         public override bool IsLoadingEnabled(Mod mod) => Loadable;
 
